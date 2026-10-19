@@ -1,0 +1,52 @@
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    section.hero {
+        flex-direction: column;
+        height: auto;
+        padding: 100px 20px;
+        text-align: center;
+    }
+
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 30px;
+    }
+
+    .btn-group {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+
+    .hero .mobile {
+        width: 100%;
+        max-width: 280px;
+        position: static;
+        margin: 20px auto;
+    }
+
+
+    .container,
+    .gallery-content,
+    .contact-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .left img,
+    .gallery-img {
+        width: 100%;
+        margin: 0;
+        position: static;
+    }
+}
